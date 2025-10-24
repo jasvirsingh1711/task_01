@@ -1,0 +1,10 @@
+# .gitignore
+build/
+install/
+log/
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Python egg info (which was also causing warnings)
+*.egg-info/
